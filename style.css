@@ -1,15 +1,30 @@
 
-
 .container {
     width: 70%;
     margin: auto;
     text-align: center;
 }
+.container input{
+    margin:0;padding:0;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+}
 
-.dice {
-    text-align: center;
-    display: inline-block;
-    margin: 10px;
+.dice1{background-image:url("./diceroll.gif");}
+.dice2{background-image:url("./diceroll.gif");}
+
+#dice1:checked ~ label[for="dice1"],
+#dice2:checked ~ label[for="dice2"] {
+    visibility: hidden;
+}
+.dices{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:100px;height:70px;
+    
 }
 
 body {
@@ -25,32 +40,14 @@ h1 {
     color: black;
     text-align: center;
 }
-
-p {
-    font-size: 2rem;
-    color: violet;
-    font-family: sans-serif;
+.result{
+    width: 70%;
+    margin: auto;
+    text-align: center;
 }
 
-img {
-    width: 100%;
+h3{
+    font-family: sans-serif; 
+    font-style: bold;
 }
 
-.bottom {
-    padding-top: 30px;
-}
-
-.butn {
-    background: darkgrey;
-    font-family: sans-serif;
-    border-radius: 7px;
-    color: black;
-    font-size: 30px;
-    padding: 10px 22px 10px 22px;
-   
-}
-
-.butn:hover {
-    background: violet;
-    text-decoration: none;
-}
