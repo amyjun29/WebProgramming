@@ -1,0 +1,56 @@
+
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+body {
+    background-color: beige;
+    margin: 0;
+}
+
+h1 {
+    margin: 30px;
+    font-family: sans-serif; 
+    font-style: bold;
+    font-size: 4.5rem;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-size: 2rem;
+    color: violet;
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.bottom {
+    padding-top: 30px;
+}
+
+.butn {
+    background: darkgrey;
+    font-family: sans-serif;
+    border-radius: 7px;
+    color: black;
+    font-size: 30px;
+    padding: 10px 22px 10px 22px;
+   
+}
+
+.butn:hover {
+    background: violet;
+    text-decoration: none;
+}
