@@ -68,3 +68,16 @@ img {
   background: skyblue;
   text-decoration: none;
 }
+img.winner1{
+  position:absolute;
+  left: 25%;
+  width: 15%;
+  height: auto;
+  vertical-align:;
+}
+img.winner2{
+  position:absolute;
+  right: 25%;
+  width: 15%;
+  height: auto;
+}
