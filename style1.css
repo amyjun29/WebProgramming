@@ -31,12 +31,11 @@ body {
 }
 
 body {
-  background: linear-gradient(-45deg, #d728f1, #220606, #23a6d5, #32cc3a);
-  text-align: center;
-
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-  margin: 0;
+    background: linear-gradient(-45deg, #d728f1, #861818, #23a6d5, #32cc3a);
+    text-align: center;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    margin: 0;
 }
 h1 {
   margin: 30px;
@@ -80,4 +79,10 @@ img.winner2{
   right: 25%;
   width: 15%;
   height: auto;
+}
+
+
+p{
+    font-weight: bold;
+    font-size: 20px;
 }
