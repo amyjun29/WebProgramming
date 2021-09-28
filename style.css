@@ -5,9 +5,12 @@
 
 
 body {
-    background-image: url("background_img.jpg");
-  
-   
+    background: url(background_img.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
     background-color: black; /* Used if the image is unavailable */
     max-width: 100%;
     font-family: 'Luckiest Guy', cursive;
